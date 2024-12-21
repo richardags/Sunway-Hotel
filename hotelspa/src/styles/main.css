@@ -1,0 +1,42 @@
+.hotel-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.hotel-detail {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hotel-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.hotel-detail p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.hotel-detail ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hotel-detail ul li {
+    font-size: 16px;
+    margin: 4px 0;
+}
