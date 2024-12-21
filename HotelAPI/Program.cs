@@ -16,7 +16,7 @@ namespace HotelAPI
             {
                 options.AddPolicy("AllowSpecificOrigins", policy =>
                 {
-                    policy.WithOrigins("http://localhost:60000")
+                    policy.WithOrigins("http://localhost:5050")
                           .AllowAnyMethod()
                           .AllowAnyHeader();
                 });
